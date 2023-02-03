@@ -1,0 +1,173 @@
+<!--Este es un comentario-->
+<!-- ctrl + / atajo para poner un comentario -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  <!--Etiqueta para la codificacion de mi pagina-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatibilidad con navegadores Obsoletos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- La escala en la vista de mi documento (no confundir con diseno responsivo) -->
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <!-- Etiquetas de cabecera --> <!--etiqueta*numeroDeVecesQueSeRepite p*6  -->
+
+    <h1>Este es un H1</h1>
+    <h2>Este es un H2</h2>
+    <h3>Este es un H3</h3>
+    <h4>Este es un H4</h4>
+    <h5>Este es un H5</h5>
+    <h6>Este es un H6</h6>
+
+    <!-- Etiquetas para formatear parrafos 
+     em etiqueta para cursiva 
+     u etiqueta para subrallar texto 
+     b etiqueta para poner texto en negritas (palabras)
+     strong para poner texto en negritas (textos largos)
+     blockquote sirve para crear un bloque de texto como si fuera una cita
+     del para tachar texto
+
+
+-->
+    <p style="color:greenyellow">
+        <em>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure atque odio nam possimus a facilis delectus ipsa qui ab?<del> Commodi perspiciatis obcaecati voluptates voluptate rem fugiat necessitatibus accusamus placeat tempora.</del>
+        </em>
+        
+    </p>
+
+    <p> <u>ipsum dolor sit amet consectetur adipisicing elit. Illum, voluptate a mollitia molestiae saepe quod placeat vitae, nobis facilis ea hic dolorem vel quasi tempore autem totam dicta, modi delectus!</u> 
+
+    </p>
+
+    <p>
+        <blockquote> ipsum <b> sit amet consectetur adipisicing elit. Nam, veritatis deleniti. Totam numquam accusamus suscipit voluptas alias cumque ipsa soluta perferendis. Consequuntur adipisci aliquam fugiat nostrum minima sint, incidunt dicta?</b></blockquote>
+    </p>
+
+    <!-- Atributos de las etiquetas 
+    
+    Los atributos de las etiquetas son una serie de elementos que se puedan agregar a una etiqueta en si para dotarla de mas caracteristicas. (No todas las etiquetas tienen atributos). Estos atributos nos permiten agregar elementos como estilos, identificadores, eventos, etc.
+
+        - Class: Marcan un conjunto de elementos
+        - ID: Marcan un elemento en especifico
+        - name: Marca el nombre de la etiqueta.
+    
+    
+    -->
+
+    <!-- Etiqueta de imagen (img) 
+    
+        La eitqueta img nos permite agregar una imagen en un documento web. Los formatos mas utilizados son: jpeg, png, gif, webp.
+        
+        Algunos de los atributos de la etiqueta img son:
+        
+            -src (source): definir la ubicacion del archivo (interna o externa)
+            -width: definir el ancho de la imagen
+            -height: define el alto de la imagen
+            -alt: define la descripcion de la imagen (para temas de SEO y accesibilidad)
+
+  
+    
+    
+    -->
+
+
+<!-- forma para agregar imagenes internas -->
+    <img src="https://pbs.twimg.com/media/FAKHc1nVgAMoYn0.jpg">
+    
+    <!-- forma para agregar imagenes externas -->
+    <img src="/perritoplayero.jpg" width = "10%" >
+
+
+
+    <!-- Podemos modificar el tamanio o la escala de la imagen, pero se modifica con respecto al lugar donde esta (contenedor), esto quiere decir que la imagen no se recorta, se recorta el espacio donde se coloca
+     -->
+
+
+     <!-- Etiquetas divisoiras y separadoras
+
+        - br: nos sirve para dar una separacion (salto de linea)
+
+
+
+-->
+
+
+
+<!--  Etiquetas de enlace
+
+ Permiten la navegacion por medio de hipervinculos (links) que realizan la conexion y referencias otros archivos o paginas web, ya sea dentro de la misma aplicacion o de forma externa.
+
+    atributos de la etiqueta
+
+    - href: sirve para definer la ubicacion del elemento a donde nos vamos a enlazar
+
+    - target: definir como se abre ese elemento
+        - misma ventana
+        - ventana adicional
+
+
+-->
+
+<!-- <a> etiqueta de enlace (anchor) -->
+
+    <!-- Referencia a sitio externo -->
+   <a href="https://www.google.com" target="_blank">Este texto me lleva a Google</a>
+
+   <!-- referencia a sitio o elemento interno -->
+   <a href="/perritoplayero.jpg" target="_blank" download title="Link para perrito playero">Descarga una bonita imagen de un perrito playero</a>
+
+
+
+
+
+   <!-- 
+
+        src (source): incrustar un recurso (pegamos en el documento)
+        href (referencia): existe un enlace que nos comunica a ese elemento, pero que no necesariamente incrusta el elemento.
+   
+    -->
+
+
+    <!-- Etiquetas para listas ordenadas y desordenadas
+     
+    
+    -->
+
+    <h3>Listas ordenadas de taquitos</h3>
+
+    <ol type="I"> <!-- Ordered List -->
+        <li> <!-- List Item -->
+            Taquito al pastor
+
+        </li>
+
+        <li>
+            Taquito de chicharron
+        </li>
+
+        <li>
+            Taquito de guisado
+        </li>
+
+
+
+    </ol>
+
+    <h3>Lista Desordenada de pendientes</h3>
+    <ul> <!-- Unordered List -->
+        <li>Jugar lolsito</li>
+        <li>Estudiar HTML</li>
+        <li>Hacer ejercicio</li>
+        <li>Dormir</li>
+        <li>Comer</li>
+
+
+    </ul>
+
+
+</body>
+</html>
